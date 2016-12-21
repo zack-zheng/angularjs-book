@@ -19,7 +19,7 @@
       function ShoppingController($scope, Items) {
         $scope.items = Items.query();
       }
-
+      // Create a module to support our shopping views
       var shoppingModule = angular.module('ShoppingModule', []);
 
       // Set up the service factory to create our Items interface to the
